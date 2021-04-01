@@ -15,7 +15,7 @@ export function Join({showModal, toggleModal}) {
   // showModal = true
   return (
     <Modal showModal = {showModal} toggleModal = {toggleModal}>
-      <div className="joinModal col-md-8 align-self-center">
+      <div className="joinModal col-md-12">
         <CloseModalButton  toggleModal = {toggleModal}/>
         <div
           className="d-flex flex-column"

@@ -4,8 +4,8 @@ const modalContainer = {
 
 const modalButtonStyle = {
   position: 'absolute',
-  top: '-12px',
-  right: '-12px',
+  top: '-6px',
+  right: '-6px',
   height: "26px",
   width: "26px",
   fontSize: '20px',
@@ -22,14 +22,11 @@ export default function Modal({showModal, toggleModal, children}) {
   if (!showModal) return ""
   return(
     <div className="modal" onClick = {toggleModal}>
-      <div className="modal-dialog" style={modalContainer} onClick = {(e) => e.stopPropagation()}>
-        <div className="modal-content">
-          <div className="modal-body">
-            <div className=" container-sm">
-              <div className="row" style={{justifyContent: 'center'}}>
-                {children}
-              </div>
-            </div>
+      <div className="container" style = {{height: '100vh'}}>
+        <div className="row" style = {{height: '100vh'}}>
+          <div className="modal-dialog align-self-center" style = {{width: "100%"}} onClick = {(e) => e.stopPropagation()}>
+                
+            {children}
           </div>
         </div>
       </div>

@@ -20,9 +20,13 @@ export const WaveformContianer = styled.div`
 `;  
 
 export const Wave = styled.div`
+
   width: 100%;
   margin-left: 20px;
-  /* height: 100%; */
+  & wave {
+    overflow: hidden !important;
+  }
+/* height: 100%; */
 `;
 
 export const PlayButton = styled.button`
@@ -87,9 +91,7 @@ class Waveform extends Component {
   
   render() {
     const url = 'public/intro.mp3';
-    console.log('public/intro.mp3')
     return (
-
       <WaveformContianer>
         <button
           className = "button button-primary"
@@ -109,7 +111,7 @@ class Waveform extends Component {
 export default function Explainer ({showModal, toggleModal}) {
   return(
     <Modal showModal = {showModal} toggleModal = {toggleModal}>
-      <div className="explainerModal col-md-12 ">
+      <div className="explainerModal col-md-16 align-self-center">
         <CloseModalButton  toggleModal = {toggleModal}/>
         <Waveform/>
       </div>
