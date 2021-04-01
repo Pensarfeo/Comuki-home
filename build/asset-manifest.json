@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/pensarfeo.github.io/static/js/main.5e2b2daf.chunk.js",
-    "main.js.map": "/pensarfeo.github.io/static/js/main.5e2b2daf.chunk.js.map",
+    "main.js": "/pensarfeo.github.io/static/js/main.331a2c73.chunk.js",
+    "main.js.map": "/pensarfeo.github.io/static/js/main.331a2c73.chunk.js.map",
     "runtime-main.js": "/pensarfeo.github.io/static/js/runtime-main.fc3a1d23.js",
     "runtime-main.js.map": "/pensarfeo.github.io/static/js/runtime-main.fc3a1d23.js.map",
     "static/js/2.27986483.chunk.js": "/pensarfeo.github.io/static/js/2.27986483.chunk.js",
@@ -28,6 +28,6 @@
   "entrypoints": [
     "static/js/runtime-main.fc3a1d23.js",
     "static/js/2.27986483.chunk.js",
-    "static/js/main.5e2b2daf.chunk.js"
+    "static/js/main.331a2c73.chunk.js"
   ]
 }
