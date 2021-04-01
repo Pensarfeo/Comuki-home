@@ -2,6 +2,7 @@
   "name": "demo-0",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://pensarfeo.github.io/pensarfeo.github.io",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
@@ -72,6 +73,7 @@
     "start": "cross-env BROWSER=none node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
